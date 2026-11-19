@@ -15,9 +15,9 @@ lung cancer, and does it hold across independent cohorts and tissues?
 | Discovery | GSE4115 (Spira) | Bronchial airway epithelium | Afik |
 | Replication | GSE66499 (AEGIS) | Bronchial airway epithelium | Afik |
 | Replication | Spira small set (cancer / no cancer / never smokers) | Bronchial airway epithelium | Afik |
-| Smoking baseline | Crystal lab airway set (e.g. GSE4498) | Small airway epithelium | Partner |
-| Cross-tissue | GTEx lung RNA-seq | Lung, cancer-free donors | Partner |
-| Cross-tissue | TCGA LUAD/LUSC normal + tumor | Lung | Partner |
+| Smoking baseline | Crystal lab airway set (e.g. GSE4498) | Small airway epithelium | Ben |
+| Cross-tissue | GTEx lung RNA-seq | Lung, cancer-free donors | Ben |
+| Cross-tissue | TCGA LUAD/LUSC normal + tumor | Lung | Ben |
 
 ## Folder layout
 
@@ -42,4 +42,5 @@ presentations/       initial and final slides
 
 ## Task list
 
-Shared task tracker: https://claude.ai/artifact/ShSM6iNhgY7f87aUZUKAuz
+Live task tracker (source of truth): https://claude.ai/artifact/ShSM6iNhgY7f87aUZUKAuz
+Snapshot in this repo: docs/task_list.md and docs/task_list.csv
