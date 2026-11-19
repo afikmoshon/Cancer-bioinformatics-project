@@ -1,0 +1,31 @@
+# Raw and processed data are large and/or controlled-access: never commit them
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# GEO / array / sequencing files
+*.CEL
+*.CEL.gz
+*.cel.gz
+*.idat
+*.bam
+*.fastq.gz
+*.h5
+*.rds
+*.RData
+*.Rhistory
+
+# R / Python environments and caches
+.Rproj.user/
+renv/library/
+renv/staging/
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
